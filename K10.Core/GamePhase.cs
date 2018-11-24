@@ -2,6 +2,7 @@
 {
     public enum GamePhase
     {
-        Opening
+        Opening,
+        Main
     }
 }

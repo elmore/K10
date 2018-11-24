@@ -10,11 +10,14 @@ namespace K10.Core
     /// </summary>
     public class GameState
     {
+        public int TurnNumber { get; private set; }
+
         public GamePhase Phase { get; private set; }
 
-        public GameState(GamePhase phase = GamePhase.Opening)
+        public GameState(GamePhase phase = GamePhase.Opening, int turnNumber = 1)
         {
             Phase = phase;
+            TurnNumber = turnNumber;
         }
     }
 }
