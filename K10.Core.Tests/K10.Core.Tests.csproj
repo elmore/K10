@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\K10.Core.csproj" />
+    <ProjectReference Include="..\k10.Core\K10.Core.csproj" />
   </ItemGroup>
 
 </Project>
